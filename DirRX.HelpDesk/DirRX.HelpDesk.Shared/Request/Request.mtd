@@ -30,10 +30,10 @@
           "Name": "ControlGroup",
           "ColumnDefinitions": [
             {
-              "Percentage": 75.76
+              "Percentage": 76.53
             },
             {
-              "Percentage": 23.23
+              "Percentage": 23.47
             }
           ]
         },
@@ -156,6 +156,14 @@
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "8d3392eb-f012-4aaf-9e81-b06ecc8a3cb6"
+    },
+    {
+      "$type": "Sungero.Metadata.IntegerPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "371368c2-5af1-401b-9e2a-c7551ab8468b",
+      "Name": "Index",
+      "Code": "Index",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.NumericEditorToIntAndDoubleBinder",
+      "PreviousPropertyGuid": "7436ef93-f1f5-42d4-bf99-25d50dec812a"
     }
   ],
   "PublicStructures": [],
